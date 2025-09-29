@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int x, y;
+
+    printf("Digite o primeiro numero inteiro positivo: ");
+    scanf("%d", &x);
+
+    printf("Digite o segundo numero inteiro positivo: ");
+    scanf("%d", &y);
+
+    if (x == y) {
+        printf("O numero %d eh igual ao numero %d.\n", x, y);
+    } else if (x > y) {
+        printf("O numero %d eh maior que o numero %d.\n", x, y);
+    } else {
+        printf("O numero %d eh menor que o numero %d.\n", x, y);
+    }
+
+    return 0;
+}
