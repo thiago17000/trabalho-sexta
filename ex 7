@@ -2,7 +2,7 @@
 
 int main(){
 	
-	int numeros[5]={10,20,30,40,50};
+	int numeros[10]={10,9,8,7,6,5,4,3,2,1};
 	int i;
 	
 	printf("elementos do vetor\n");
