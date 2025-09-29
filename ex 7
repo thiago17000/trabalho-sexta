@@ -1,13 +1,16 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
-	
-	int numeros[10]={10,9,8,7,6,5,4,3,2,1};
-	int i;
-	
-	printf("elementos do vetor\n");
-	
-	for(i=0;i<5;i++){
-		printf("elemento %d: %d\n",i,numeros[i]);
-	}
+int main() {
+    int numero, i;
+
+    printf("Digite um numero inteiro: ");
+    scanf("%d", &numero);
+
+    printf("Tabuada do %d:\n", numero);
+
+    for (i = 1; i <= 10; i++) {
+        printf("%d x %d = %d\n", numero, i, numero * i);
+    }
+
+    return 0;
 }
