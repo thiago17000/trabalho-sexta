@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main() {
+    int opcao;
+
+    printf("Entre com uma das opcoes de titulo de livros:\n");
+    printf("1 - Infantil\n");
+    printf("2 - Ficcao\n");
+    printf("3 - Suspense\n");
+    printf("4 - Aventura\n");
+    printf("Opcao: ");
+    scanf("%d", &opcao);
+
+    switch (opcao) {
+        case 1:
+            printf("Voce escolheu Infantil.\n");
+            break;
+        case 2:
+            printf("Voce escolheu Ficcao.\n");
+            break;
+        case 3:
+            printf("Voce escolheu Suspense.\n");
+            break;
+        case 4:
+            printf("Voce escolheu Aventura.\n");
+            break;
+        default:
+            printf("Opcao invalida.\n");
+    }
+
+    return 0;
+}
