@@ -3,7 +3,7 @@
 int main() {
     int numero;
 
-    printf("Digite um numero inteiro positivo: ");
+    printf("Digite um numero: ");
     scanf("%d", &numero);
 
     // Verifica se é múltiplo de 3
